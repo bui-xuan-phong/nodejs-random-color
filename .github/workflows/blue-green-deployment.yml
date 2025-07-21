@@ -31,7 +31,7 @@ env:
 
 jobs:
   build-and-push:
-    uses: ./.github/workflows/build-docker.yml
+    uses: ./.github/workflows/build-docker-v1.yml
     with:
       version: ${{ inputs.version }}
     secrets: inherit
